@@ -16,6 +16,7 @@ add_subdirectory(thirdparty/spdlog)
 add_subdirectory(thirdparty/googletest)
 
 include_directories(thirdparty/googletest/googletest/include)
+include_directories(thirdparty/gflags/)
 
 # source directory
 add_subdirectory(src)
