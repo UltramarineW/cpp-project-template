@@ -4,6 +4,7 @@
 #include "gflags/gflags.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/sinks/basic_file_sink.h"
+#include <fmt/core.h>
 
 
 int main(int argc, char*argv[]) {
